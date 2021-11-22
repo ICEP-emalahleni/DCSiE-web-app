@@ -11,8 +11,8 @@
     <form action="Contact.php">
   
         <h1>CONTACT US</h1>
-        <p>49 beyrl street
-           Waterfall park</p>
+        <p>49 icep street
+           Witbank </p>
            <p>icep@gmail.com</p>
            <p>013 565 7890</p>
       <label for="name">Name</label>
