@@ -9,12 +9,30 @@
 <body>
 <div class="container">
     <form action="Contact.php">
-  
-        <h1>CONTACT US</h1>
-        <p>49 icep street
-           Witbank </p>
-           <p>icep@gmail.com</p>
-           <p>013 565 7890</p>
+        <div class = "left-side">
+          <h1>CONTACT US</h1>
+          <div class= "address details">
+            <i class ="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Mandela Street</div>
+            <div class="text-two">Witbank</div>
+</div>
+
+          <div class= "phone details">
+            <i class ="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">013 565 8296</div>
+            <div class="text-two">013 465 9526</div>
+</div>
+
+          <div class= "email details">
+            <i class ="fas fa-envelope-alt"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">icep@gmail.com</div>
+            
+</div>
+        </div>
+        
       <label for="name">Name</label>
       <input type="text" id="name" name="name" placeholder="Enter your name">
   
