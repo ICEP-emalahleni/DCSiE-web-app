@@ -1,0 +1,90 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+
+  border: none;
+ 
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0%;
+  display: inline-block
+  
+}
+
+button:hover {
+  opacity: 0.85;
+}
+.h2center{
+    text-align: center;
+}
+
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width:150px;
+  height:150px;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+  
+.signup :hover{
+cursor: pointer;
+color:dodgerblue;
+}
+.centeredText{
+ text-align: center;
+ margin: 20px 0;
+ clear: both;
+ overflow: hidden;
+ text-transform:uppercase;
+}
+.textLine {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+.textLine span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+.logo{
+padding:20px;
+text-align:center;
+margin:40px;
+
+
+}
+.sectionclass{
+  
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+   
+}
