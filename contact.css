@@ -1,23 +1,81 @@
 * {
     margin: 0;
     padding: 0;
-    /* border-size: border-box; */
+    
   }
   
   html, body {
     height: 100vh;
-   
     font-family: 'Balsamiq Sans', sans-serif;
   }
   
   body {
     display: flex;
-    
     justify-content: center;
   }
-  
-.container h1{
+
+  /* Container1 */
+  .container1{
     color: #0aa89e;
-    font-size: 60px;
-    text-transform: uppercase;
+  } 
+  .container2{
+    color: #0aa89e;
+  }
+  .container1 h1{
+      font-weight: lighter;
+  }
+/* Left side */
+  .container1 .left-side{
+    padding-right: 450px; 
+    padding-top: 200px;
+  }
+
+  /* Right side */
+  .container2 .right-side{
+      
+    padding-left: 0px; 
+    padding-top: 100px;
+    display: grid;
+    grid-gap: 30px;
+  }
+/* edits of input */
+  input[type=text] {
+    border: none;
+    border-bottom: 1px solid #0aa89e;
+    outline: none;
+    color: #0aa89e;
+     width: 250px; /*increases the line of the input text */
+     height:50px;
+  }
+  input:hover{
+    border:1px solid #0aa89e;
+}
+  
+/* edits of a textarea */
+  textarea{
+    border: none;
+    border-bottom: 1px solid #0aa89e;
+    resize:none;
+    outline: none;
+    width: 350px;
+    height: 100px;
+  }
+textarea:hover{
+    border:1px solid #0aa89e;
+}
+/* edits of a submit button */
+  .button {
+    background-color: #0aa89e;
+    color: white;
+    /* border: 2px solid #0aa89e;  */
+    padding: 10px 24px;
+    border:none;
+    
+  } 
+  .button:hover {
+    opacity: 0.6
+  }
+/* changing color of a placeholder */
+  ::placeholder{
+      color: #0aa89e;
   }
