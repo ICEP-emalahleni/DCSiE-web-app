@@ -41,7 +41,7 @@
 	margin-top: 10px;
 	font-family: sans-serif;
 	font-size: 18px;
-	line-height: 3;
+	line-height: 1.5;
 }
 .content-section .content .button{
 	margin-top: 30px;
@@ -88,8 +88,8 @@
 	
 }
 .image-section img{
-	width: 100px;
-	height: 100px;
+	width: 100%;
+	height: auto;
 	display: block;
 	margin:auto;
 }
@@ -108,8 +108,4 @@
 }
 
 }
-
-
-
-
 
