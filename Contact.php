@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
     <title>contact</title>
 </head>
 <body>
+  <!--Left side-->
 <div class="container">
     <form action="Contact.php">
         <div class = "left-side">
@@ -32,8 +34,9 @@
             
 </div>
         </div>
-        
-      <label for="name">Name</label>
+        <!--Right Side-->
+        <div class = "right-side">
+          <label for="name">Name</label>
       <input type="text" id="name" name="name" placeholder="Enter your name">
   
       <label for="email">Email</label>
@@ -52,6 +55,8 @@
       <textarea id="subject" name="subject" placeholder="Type your message here..." ></textarea>
   
       <input type="submit" value="Submit">
+    </div>
+      
   
     </form>
   </div>
