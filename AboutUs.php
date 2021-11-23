@@ -17,7 +17,7 @@
 			     <h3> DCSiE is a Digital Campus Structures Inventory initiated by ICEP emalahleni. As the ICEP team at Emalahleni we have created this project a web and mobile application that will allow users to manage the campus infrastructure.
 
                       The current state of the infrastructure in the campus is not known and recorded which means the ability to keep track of the availability and managing the infrastructure is minimized. 
-				      The DCSIE website and application comes to the rescue as it allows the you to record and manage the campus infrastructure as it enables you to store the name, capacity, 
+				      The DCSIE website and application comes to the rescue as it allows you the user to record and manage the campus infrastructure as it enables you to store the name, capacity, 
 					  inventory and availability of each infrastructure in each building. <h3>
 
 				    <p> The main object of this program is amongst others to assist with recording, and mananging the campus infrasture available
