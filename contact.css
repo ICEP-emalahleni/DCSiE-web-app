@@ -6,13 +6,13 @@
   
   html, body {
     height: 100vh;
-    background: #666666;
+   
     font-family: 'Balsamiq Sans', sans-serif;
   }
   
   body {
     display: flex;
-    align-items: center;
+    
     justify-content: center;
   }
   
