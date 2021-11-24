@@ -1,0 +1,83 @@
+.{
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+.footer-container{
+	background-color:#212329;
+	padding: 4rem 0 4rem 0;
+}
+
+
+.footer{
+	width: 80%;
+	height: 40vh;
+	background-color: #212329;
+	color: #fff;
+	display:flex;
+	justify-content:left;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	
+}
+
+
+
+
+.footer-heading{
+	display: flex;
+	flex-direction: column;
+	margin-right: 4rem;
+	
+}
+
+.footer-heading h2{
+	margin-bottom: 2rem;
+}
+
+
+.footer-heading a {
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 0.5;
+	
+}
+
+.footer-heading a:hover{
+	color: red;
+	transition: 0.3s ease-out;
+	
+}
+
+
+.fa-facebook-square{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
